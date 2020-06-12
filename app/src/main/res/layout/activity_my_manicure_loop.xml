@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MyManicureLoopActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/pinkbackground"
+        tools:context="com.android_examples.com.layoutbackgroundcolorxml.MainActivity"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="55dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="495dp"
+            android:fontFamily="@font/bad_script"
+            android:text="My Last Manicure: "
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#4F3755"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/myLastManicureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="91dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="116dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="396dp"
+            android:fontFamily="@font/bad_script"
+            android:textAlignment="center"
+            android:textColor="#4F3755"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="211dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="339dp"
+            android:fontFamily="@font/bad_script"
+            android:text="When Should I Have A Manicure?: "
+            android:textAlignment="center"
+            android:textColor="#4F3755"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/nextDateTextView"
+            android:layout_width="333dp"
+            android:layout_height="265dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="271dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="67dp"
+            android:fontFamily="@font/bad_script"
+            android:textAlignment="center"
+            android:textColor="#4F3755"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

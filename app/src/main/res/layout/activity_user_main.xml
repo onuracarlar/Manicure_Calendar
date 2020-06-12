@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserMainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.android_examples.com.layoutbackgroundcolorxml.MainActivity"
+        android:background="@drawable/pinkbackground" >
+
+        <Button
+            android:id="@+id/logOut"
+            android:layout_width="wrap_content"
+            android:layout_height="51dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="140dp"
+            android:layout_marginTop="486dp"
+            android:layout_marginEnd="140dp"
+            android:layout_marginBottom="66dp"
+            android:fontFamily="@font/coming_soon"
+            android:onClick="logOut"
+            android:text="LOG OUT"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/myManicuresButton"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="216dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="334dp"
+            android:fontFamily="casual"
+            android:onClick="myManicuresButtonClicked"
+            android:text="My Manicures"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/myManicureLoopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="311dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="236dp"
+            android:fontFamily="casual"
+            android:onClick="myManicureLoopButtonClicked"
+            android:text="My Manicure Loop"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addManicureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="123dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginBottom="427dp"
+            android:fontFamily="casual"
+            android:onClick="addManicureButtonClicked"
+            android:text="Add Manicure"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
